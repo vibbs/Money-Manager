@@ -120,7 +120,6 @@ public class Graph extends JFrame {
 	        XYSeries series2 = new XYSeries("Remaining Amt");//blue
 	        XYSeries series3 = new XYSeries("Savings");//green
 	        
-	        
 	        float i1 = 0;
 	     
 	        System.out.println(model.size());
@@ -133,9 +132,6 @@ public class Graph extends JFrame {
 	        	i1++;
 	        	
 	        }
-	       
-	       
-	     
 	        dataset.addSeries(series1);
 	        dataset.addSeries(series2);
 	        dataset.addSeries(series3);
